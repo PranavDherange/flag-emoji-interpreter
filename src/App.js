@@ -37,6 +37,10 @@ export default function App() {
       <input onChange={emojiHandler} type="text" />
       <h2>{meaning}</h2>
       <h3>flags we know</h3>
+      <h1>flag emoji interpreter</h1>
+      <input onChange={emojiHandler} type="text" />
+      <h2>{meaning}</h2>
+      <h3>flags we know</h3>
       {emojis.map((item) => {
         return (
           <span
